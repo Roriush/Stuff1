@@ -1,0 +1,77 @@
+/* HEADER */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: none;
+    float: none;
+    align-items: center;
+}
+
+.header_title {
+    color: #00008b;
+    padding: 30px;
+    margin: 0px;
+    justify-content: left;
+}
+
+
+.header_navigation {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    margin: 50px 30px;
+}
+
+.header_button button {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    border-radius: 35px;
+    font-size: 45px;
+    font-weight: 500;
+    background: none;
+    color: cornflowerblue;
+    cursor: pointer;
+}
+
+.contenedor_flex{
+    display: flex;
+    gap: 20px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+ /* BODY */
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 200px 200px 200px 200px;
+   
+    grid-template-areas:
+      "FOTO1 FOTO2 FOTO3 FOTO4"
+      "FOTO1 FOTO2 FOTO3 FOTO4"
+      "FOTO5 FOTO6 FOTO7 FOTO8"
+      "FOTO5 FOTO6 FOTO7 FOTO8";
+  
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .contenedor_flex{
+    display: flex;
+    gap: 20px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
