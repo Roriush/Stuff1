@@ -33,7 +33,11 @@ const App = () => {
   return (
     <div>
       {books.map((book) => (
-        <Card key={book.id} book={book} />
+        <div key={book.id}>
+          <h2>{book.titulo}</h2>
+          <p>By {book.autor}</p>
+          <p>Price: ${book.precio}</p>
+        </div>
       ))}
     </div>
   );
